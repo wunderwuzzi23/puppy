@@ -1,6 +1,6 @@
 # puppy - PCoIP Password Auth Testing Tooling
 
-`puppy` helps test your organization's PCoIP server (e.g. Teradici) to uncover accounts with weak passwords by performing a passwords spraying test.
+`puppy` helps test your organization's PCoIP server (e.g. Teradici) to uncover accounts with weak passwords by performing a password spray testing.
 
 Targeted API: `/pcoip-broker/xml`
 
@@ -36,5 +36,5 @@ go build -o puppy main.go
 
 # Remarks
 
-Pentesting requires authorization from proper stakeholders - seek proper permission before engaging in testing.
+Security testing requires authorization from proper stakeholders before engaging.
 
